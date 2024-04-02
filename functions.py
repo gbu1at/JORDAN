@@ -126,7 +126,6 @@ def get_kernel_linear_operator(B):
             if abs(a[row][col]) > eps:
                 i = row
 
-
         if i != -1:
             for row in range(col, n):
                 if row != i:

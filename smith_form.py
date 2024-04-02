@@ -38,19 +38,3 @@ def get_jung_diagrams(a):
             else:
                 jung_diagrams_all_roots[root] = {cnt: 1}
     return jung_diagrams_all_roots
-
-# v = {}
-#
-# n = 5
-#
-# A = Matrix([ [-4, 4, 0, 0, 0],
-#              [0, 0, 0, 0, 0],
-#              [0, 4, 4, 0, 0],
-#              [3, -9, -4, 2, -1] ,
-#              [1, 5, 4, 1, 4]])
-#
-# smith_form = get_smith_form(A, n)
-# a = get_roots_in_smith_form(smith_form, n)
-#
-#
-# print(get_jung_diagrams(a))
